@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Impact_echo",
+    "slug": "impactecho",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iECHOLogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.team14iECHO.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9c04a41f-98a6-4194-8a78-148009705d13"
+      }
+    }
+  }
+}
